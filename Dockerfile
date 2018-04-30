@@ -25,7 +25,7 @@ RUN add-apt-repository ppa:bitcoin/bitcoin && \
 
 WORKDIR /pluracoin
 
-ENV PLURACOIN_VERSION v3.0.0.1 
+ENV PLURACOIN_VERSION 1.5.0 
 
 RUN https://github.com/pluracoin/PluraCoin.git . && \
     git checkout $PLURACOIN_VERSION && \
