@@ -27,7 +27,7 @@ WORKDIR /pluracoin
 
 ENV PLURACOIN_VERSION 1.5.0 
 
-RUN https://github.com/pluracoin/PluraCoin.git . && \
+RUN git clone https://github.com/pluracoin/PluraCoin.git . && \
     git checkout $PLURACOIN_VERSION && \
     make
 
