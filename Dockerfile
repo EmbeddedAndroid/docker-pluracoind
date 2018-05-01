@@ -6,6 +6,7 @@ RUN apt-get update && \
          automake \
          build-essential \
          libtool \
+         cmake \
          autotools-dev \
          autoconf \
          pkg-config \
